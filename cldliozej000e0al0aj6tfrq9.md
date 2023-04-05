@@ -1,4 +1,12 @@
-# Notes from Apache Druid POCs
+---
+title: "Notes from Apache Druid POCs"
+datePublished: Wed Feb 01 2023 10:20:04 GMT+0000 (Coordinated Universal Time)
+cuid: cldliozej000e0al0aj6tfrq9
+slug: notes-from-apache-druid-pocs
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/3ym6i13Y9LU/upload/73914b88e19e8f437de736df33fa8fe0.jpeg
+tags: apachedruid
+
+---
 
 "It's clear out time," says my ever-patient husband. "Why have you got all this paper hanging around? I need this space to put my brand new PS5 that you bought me." (Yes, the PS5 is so huge, it requires an entire room.)
 
@@ -85,30 +93,30 @@ At a minimum, make sure you have these set and know what they do:
 
 | **What** | **Settings** |
 | --- | --- |
-| [`common.runtime.properties`](http://common.runtime.properties) | [`druid.metadata.storage`](http://druid.metadata.storage)`.type`  
-`druid.metadata.storage.connector.*`  
-`druid.storage.*`  
-`druid.indexer.logs.*`  
-`druid.zk.service.host`  
-`druid.zk.paths.base` |
-| Historical [`runtime.properties`](http://runtime.properties) | `druid.server.http.numThreads`  
-`druid.processing.buffer.sizeBytes`  
-`druid.processing.numMergeBuffers`  
-`druid.processing.numThreads`  
-`druid.segmentCache.locations`  
-`druid.cache.sizeInBytes` |
+| [`common.runtime.properties`](http://common.runtime.properties) | `druid.metadata.storage.type` |
+|  | `druid.metadata.storage.connector.*` |
+|  | `druid.storage.*` |
+|  | `druid.indexer.logs.*` |
+|  | `druid.zk.service.host` |
+|  | `druid.zk.paths.base` |
+| Historical [`runtime.properties`](http://runtime.properties) | `druid.server.http.numThreads` |
+|  | `druid.processing.buffer.sizeBytes` |
+|  | `druid.processing.numMergeBuffers` |
+|  | `druid.processing.numThreads` |
+|  | `druid.segmentCache.locations` |
+|  | `druid.cache.sizeInBytes` |
 | Historical `jvm.config` | XMS, XMX, and MaxDirectMemorySize |
-| MiddleManager [`runtime.properties`](http://runtime.properties) | `druid.worker.capacity`  
-`druid.indexer.runner.javaOpts` → `Xms`, `Xmx`, and `MaxDirectMemorySize` |
+| MiddleManager [`runtime.properties`](http://runtime.properties) | `druid.worker.capacity` |
+|  | `druid.indexer.runner.javaOpts` → `Xms`, `Xmx`, and `MaxDirectMemorySize` |
 | Coordinator-Overlord `jvm.config` | XMS, XMX, and MaxDirectMemorySize |
 | Broker `jvm.config` | XMS, XMX, and MaxDirectMemorySize |
 | Router `jvm.config` | XMS, XMX, and MaxDirectMemorySize |
 
-Sometimes, people miss that, when ingesting streaming data, Middle Manager Tasks (aka Peons) also respond to queries. Just like the Historical process, then, they receive lookups (unless you say otherwise) that need to go into heap, and they also have their own equivalent settings for the `druid.processing.*` you see above, but all prefixed with [`druid.indexer.fork.property`](http://druid.indexer.fork.property) in the MiddleManager [`runtime.properties`](http://runtime.properties).
+Sometimes, people miss that, when ingesting streaming data, Middle Manager Tasks (aka Peons) also respond to queries. Just like the Historical process, then, they receive lookups (unless you say otherwise) that need to go into heap, and they also have their own equivalent settings for the `druid.processing.*` you see above, but all prefixed with `druid.indexer.fork.property` in the MiddleManager `runtime.properties`.
 
-The HTTP settings are also very often missed - these limit the number of queries that the Broker can receive and the size of the fan-out to Middle Manager Tasks and Historicals. There are a number of [dials](https://druid.apache.org/docs/latest/operations/basic-cluster-tuning.html#sizing-the-connection-pool-for-queries) around [`druid.broker`](http://druid.broker)`.http.numConnections`, `druid.server.http.numThreads`. You might even delve into [`druid.broker`](http://druid.broker)`.http.maxQueuedBytes`.
+The HTTP settings are also very often missed - these limit the number of queries that the Broker can receive and the size of the fan-out to Middle Manager Tasks and Historicals. There are a number of [dials](https://druid.apache.org/docs/latest/operations/basic-cluster-tuning.html#sizing-the-connection-pool-for-queries) around `druid.broker.http.numConnections`, `druid.server.http.numThreads`. You might even delve into `druid.broker.http.maxQueuedBytes`.
 
-Then there are the settings for the caches - `druid.historical.cache.useCache` / [`druid.broker`](http://druid.broker)`.cache.useCache` and `druid.historical.cache.populateCache` / [`druid.broker`](http://druid.broker)`.cache.populateCache`.
+Then there are the settings for the caches - `druid.historical.cache.useCache` / `druid.broker.cache.useCache` and `druid.historical.cache.populateCache` / `druid.broker.cache.populateCache`.
 
 ## Stay connected
 
