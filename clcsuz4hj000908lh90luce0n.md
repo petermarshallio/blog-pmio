@@ -1,4 +1,13 @@
-# Apache Druid®-powered analytics applications
+---
+title: "Apache Druid®-powered analytics applications"
+datePublished: Thu Jan 12 2023 08:58:34 GMT+0000 (Coordinated Universal Time)
+cuid: clcsuz4hj000908lh90luce0n
+slug: apache-druid-powered-analytics-applications
+canonical: https://pmio.substack.com/p/apache-druid-analytics-applications
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mcSDtbWXUZU/upload/0d445115b08ec04336680869ec0ccfe0.jpeg
+tags: apachedruid
+
+---
 
 By using Apache Druid to power your applications, you are part of the charge to deliver a new generation of decision support tooling. That makes you a disruptor, delivering user experiences that increase democratic, socialised decision-making, breaking your users and your engineers free. Here are 10 inspiring characteristics of Apache Druid Powered applications!
 
