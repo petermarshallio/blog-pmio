@@ -1,4 +1,13 @@
-# Apache Druid® - an enterprise architect's overview
+---
+title: "Apache Druid® - an enterprise architect's overview"
+datePublished: Thu Jan 12 2023 08:53:26 GMT+0000 (Coordinated Universal Time)
+cuid: clcsusj4x000q08mq70vf03f9
+slug: apache-druid-an-enterprise-architects-overview
+canonical: https://pmio.substack.com/p/apache-druid-an-enterprise-architects
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/-FPFq_trr2Y/upload/4254f07da89708ac4ffe56dd46234a64.jpeg
+tags: apachedruid
+
+---
 
 [Apache Druid](https://druid.apache.org/) is part of the [modern data architecture]((https://a16z.com/2020/10/15/emerging-architectures-for-modern-data-infrastructure/)). It uses a special data format designed for analytical workloads, using extreme parallelisation to get data in and get data out. A shared-nothing, microservices architecture helps you to build highly-available, extreme scale analytics features into your applications.
 
