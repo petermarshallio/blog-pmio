@@ -10,6 +10,8 @@ tags: apachedruid
 
 I thought I’d share some lessons I learned over the last few years about ingestion-time aggregation in Druid, and how cardinality affects it. This is kinda a little process I go through mentally that I thought would be helpful to share!
 
+## What is roll-up?
+
 In case you don't know what roll-up is, it [takes incoming rows in Druid and then aggregates them](https://druid.apache.org/docs/latest/ingestion/rollup.html), spitting out metrics from the measures that you have. There's the native rollup, which you turn on with streaming ingestion, and then there's the modern Druid approach to roll-up, which – in plain English, a `GROUP BY` in the `INSERT` [statement](https://druid.apache.org/docs/latest/ingestion/rollup.html) for batch ingestion.
 
 You might choose to emit your usual `MAX`, `MIN`, and so on metrics, or something more hÿpercool like a [data sketch](https://druid.apache.org/docs/latest/ingestion/index.html#metricsspec) to speed up approximation operations. In native, you put all that in the [`metricsSpec`](https://druid.apache.org/docs/latest/ingestion/rollup.html) section of your ingestion specification - with `INSERT` you just use the usual aggregates.
@@ -17,6 +19,8 @@ You might choose to emit your usual `MAX`, `MIN`, and so on metrics, or somethin
 Awesome! Now you can reduce your 10m rows per second of people surfing TikTok on your office WiFi network (I will not enter into the debate as to whether TikTok connects to WiFi) to just 10 per second, giving you the aggregates ahead of time that you would otherwise have computed every time with each query.
 
 In terms of efficiency of this operation, it's the same as it is for any `GROUP BY` operation: the cardinality of dimensions you have in your `SELECT`. In Druid’s case, that’s the source data columns that you list in your [ingestion specification](https://druid.apache.org/docs/latest/ingestion/index.html#dimensionsspec) or `INSERT` statement. So be cautious!
+
+## Timestamp truncation
 
 A discrete piece of functionality in Druid is to automatically truncate incoming timestamps. That’s done by specifying a `queryGranularity` in the ingestion spec or by using a suitable time function in your `INSERT`.
 
@@ -33,7 +37,11 @@ Here’s an example data set where `queryGranularity` processing is at `FIVE_MIN
 | 09:05 | Peter | Waltz |
 | 09:05 | Peter | Waltz |
 
+This is a necessary thing for effective roll-up – if you did a `GROUP BY` on the raw timestamp, you'd end up with a row for every millisecond (worst case).
+
 Now let’s use our eye-minds and think about the roll-up.
+
+## Periodic single-dimension cardinality
 
 Imagine that we're going to add a `COUNT` Each column has low cardinality within that time period, so we get a nice aggregation: 8 went in, 4 came out.
 
@@ -70,6 +78,8 @@ Notice that, within the 5 minutes buckets (our `queryGranularity` truncated time
 | 09:05 | Tom | Fandango | 1 |
 | 09:05 | Terry | Fandango | 1 |
 
+## Periodic multi-dimension cardinality
+
 And there’s a second scenario: lots of **combinations** of values.
 
 | **Time** | **Name** | **Dance** |
@@ -95,6 +105,8 @@ Here there are just too many combinations of values in each five-minute interval
 | 09:05 | Claire | Fandango | 1 |
 | 09:05 | Sian | Waltz | 1 |
 | 09:05 | Terry | Waltz | 1 |
+
+## Periodic hierarchy
 
 One cause for this combined cardinality problem could be data hierarchy. Let’s imagine that Peter is King of the Fandango and Voguing. (Well done, Peter). John, meanwhile, is King of the Foxtrot, Waltz, and Paso Doble. (Ie, parent-child).
 
@@ -124,6 +136,8 @@ The roll-up ends up looking like this:
 Here, the roll-up is less effective because each dancer (the root) knows a distinct set of dances (the leaves) and it’s very unlikely that they’d *repeat the same dance in the same roll-up period*.
 
 You can look at data you have ingested already to get a feel for its profile.
+
+## Some lovely SQL
 
 If you've got your data in Druid already, find the number of rows in a one hour period simply by using the Druid console:
 
@@ -191,3 +205,19 @@ There was another option as well – which was to create different tables with s
 So there you have it: remember to conceptualise and test your `GROUP BY` on the raw data, and remember cardinality and hierarchies.
 
 Huzzah!
+
+## Ingestion parallelism
+
+There's another important effect on this operation, and it requires thinking about how the ingestion is actually executed.
+
+Ingestion tasks can be run in a single thread – but that would kinda defeat the purpose of a shared-nothing, microservices way of doing things. Instead, with Druid, you can set a number of sub-tasks that will actually go and do the ingestion.
+
+Now, in MSQ-land, things are slightly different (there's a shuffle stage) - but with other ingestion types, splits of the incoming data are assigned to different task workers by the overlord.
+
+Whether it's individual files in S3 or a collection of topics in Apache Kafka, each worker will get its own data. And each worker will then do roll-up on its own data.
+
+Some community members have found that this means the roll-up itself is not as efficient – only parts of our rows in the tables above actually end up on each task.
+
+Of course, compaction can help sort that out after the fact, but it might be in your interest to think about preventing it from happening in the first place.
+
+One option people have applied is to set up hashing across dimensions of data upstream of Druid's Kafka consumer to set the partition that data should go to. The result being that workers get data that is *much* more likely to `GROUP BY` efficiently than if something like a round-robin event distribution was being used.
