@@ -3,6 +3,7 @@ title: "An adventure into profiling segments with Apache Druid's SYS tables"
 datePublished: Wed Jul 06 2022 11:02:37 GMT+0000 (Coordinated Universal Time)
 cuid: clg50ep6z000e09mnco6r9sln
 slug: an-adventure-into-profiling-segments-with-apache-druids-sys-tables
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/fPkvU7RDmCo/upload/587f6f7aeb9294fcf6dce6e37a214910.jpeg
 tags: apachedruid
 
 ---
