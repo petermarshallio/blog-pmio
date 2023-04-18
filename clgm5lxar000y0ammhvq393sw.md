@@ -3,6 +3,7 @@ title: "X-Events - a new type of Event data"
 datePublished: Tue Mar 16 2021 12:00:22 GMT+0000 (Coordinated Universal Time)
 cuid: clgm5lxar000y0ammhvq393sw
 slug: x-events-a-new-type-of-event-data
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/rPOmLGwai2w/upload/730d80fb7ef53b587cb7ffbb32c234a4.jpeg
 
 ---
 
