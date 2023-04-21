@@ -18,7 +18,7 @@ I'm a bit of a fan of [ITIL](https://en.wikipedia.org/wiki/ITIL), so we didn't r
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682065318253/7bc9ec53-df4c-4de5-9bcf-a7d18b7a0558.png align="center")
 
-Now we could start to clear up what people meant by "open source support", and ask *who* was involved in each of the levels of support. I'm happy to say that the outcome of those conversations re-affirmed to all of us that Imply's mission remains the same:
+Now we could start to clear up what people meant by "open source support", and ask *who* was involved in each of the levels of support. I'm happy to say that the outcome of those conversations re-affirmed to all of us that our company's mission remained the same:
 
 > "Make it as easy as possible for people to use Druid and build awesome data applications on top of it".
 
