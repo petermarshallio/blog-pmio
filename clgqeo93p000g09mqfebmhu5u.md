@@ -8,21 +8,23 @@ tags: devrel, apachedruid
 
 ---
 
-My team is passionate about supporting the Apache Druid community. We are driven to improve your overall experience. In this post, I share a story of understanding and honing community support in the hope that it will provide some useful resources in your own DevRel journey.
+My team is passionate about supporting the Apache Druid community. We are driven to improve the overall community support experience. In 2022, a group of community members got together to assess what it was like, and to think about how things could be better. In this post, I share our story.
 
 ## Step 1: Defining what "support" means
 
-I'm a stickler for defining what words mean. And yes, I'm also a bit of a grammar fiend, I'm afraid! I wanted everyone to be clear what the term "support" really meant to us as a group. [Taz Chaudhry](https://www.linkedin.com/in/tahira-c-989a0642/) and [Caroline Harris](https://www.linkedin.com/in/caroline-harris-04783550/) (awesome support leaders I've worked with for many years) helped develop an answer to that fundamental question: "what does support for our open source community look like?"
+I'm a stickler for defining what words mean. And yes, I'm also a bit of a grammar fiend, I'm afraid! I personally wanted everyone to be clear about what the term "support" really meant. [Taz Chaudhry](https://www.linkedin.com/in/tahira-c-989a0642/) and [Caroline Harris](https://www.linkedin.com/in/caroline-harris-04783550/) (awesome support leaders I've worked with for many years) helped develop an answer to that fundamental question.
 
-I'm a bit of a fan of [ITIL](https://en.wikipedia.org/wiki/ITIL), so we didn't re-invent the wheel. Using a number of awesome resources (like this [blog from BMC Software](https://www.bmc.com/blogs/support-levels-level-1-level-2-level-3/)) we quickly worked up a table of what we felt support was - and more than that, how it is different depending on the circumstances.
+Being fans of [ITIL](https://en.wikipedia.org/wiki/ITIL), we didn't re-invent the wheel. We quickly worked up a table of what we felt support was - and how it is different depending on the circumstances.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682065318253/7bc9ec53-df4c-4de5-9bcf-a7d18b7a0558.png align="center")
 
-Now we could start to clear up what people meant by "open source support", and ask *who* was involved in each of the levels of support. I'm happy to say that the outcome of those conversations re-affirmed to all of us that our company's mission remained the same:
+Now we could ask *who*, in the community, was involved in each tier of support. What kinds of community members are likely to be in demand? Where are they? What are their motivations? What barriers are there to them being in on the action?
+
+I'm happy to say that when we had those conversations inside our own company, it rallied everyone around one of our company's core mission statements:
 
 > "Make it as easy as possible for people to use Druid and build awesome data applications on top of it".
 
-## Step 2: Understanding the demand
+## Step 2: Understanding where it happens
 
 Each Apache [PMC](https://projects.apache.org/projects.html) states its preferred channels of communication on its project website. This sets an expectation, especially for people involved in or using Apache projects like Druid.
 
@@ -32,21 +34,25 @@ These [mailing lists](https://www.apache.org/foundation/mailinglists.html) are [
 
 > ...they serve as both a public historical record and a searchable repository of our activities and decisions.
 
-The Apache Druid PMC [published lists of channels](https://druid.apache.org/community/), starting with the *developer* mailing list “for discussion about project development” and the *user* mailing list “for general discussion, questions, and announcements”. In that respect, the demands and expectations from Druid community members is the same as every Apache project: "I need somewhere to get solutions when I'm stuck, and I need to be able to suggest / propose changes to the code".
+The Apache Druid PMC [published lists of channels](https://druid.apache.org/community/) for Druid, starting with the *developer* mailing list “for discussion about project development” and the *user* mailing list “for general discussion, questions, and announcements”. In that respect, the demands and expectations from Druid community members is the same as every Apache project:
+
+> I need somewhere to get solutions when I'm stuck, and I need to be able to suggest / propose changes to the code.
 
 There are additional channels for the Druid community too, including a Slack channel and Github to “report issues and problems, or suggest new features”.
 
-Thanks to our model of tiered support, we could then try and categorise the levels of support people were asking for and expecting, based on the channel that they used.
+Thanks to the group's model of tiered support, we could categorise the channel based on the type of questions and problems they were raising.
 
-The clarity that brought can't be understimated!
+The clarity this brought can't be understimated!
 
-We reached a consensus that Slack was *at least* Tier 2. And we found that Google Groups conversations (the main user mailing list) were usually Tier 1. Github issues on the other hand, were expected to be Tier 3, but sometimes were more like Tier 1 (people wanting expert help).
+We reached a consensus that the Druid Slack troubleshooting channel was *at least* Tier 2. And we found that Google Groups conversations (the main user mailing list) were usually Tier 1. And while people were expecting Github issues to be Tier 3, we found a lot of Tier 1 issues, with people just wanting some tutoring.
 
-Next, we wanted to find out what channels other open core companies had. We'd been through a period of creativity (go startups!) and of rapid growth. We needed to be focused and to use our resources wisely. So we put our heads above the parapet and researched what other open-core companies were doing to create an "environment of goodwill" where people felt able to ask questions and to help one another be successful.
+But we didn't just want to stop there. The Druid community had been through a period of rapid growth, and we wanted to find out whether the community as a whole needed to be in better places at a better time.
 
 ## Step 3: Learn from peers
 
-Amongst the projects we checked at the time, Stack Overflow was most prevalent, followed by Slack. The added bit of schmungle (new word) to this is that open-core companies often sponsor other channels, aside from the "official" ones.
+We peeked out of the window and looked at what other communities were doing to create an "environment of goodwill" where people felt able to ask questions and help one another be successful.
+
+Of course, communities don't always just stick to the user and dev mailing lists. Amongst the projects we checked at the time, Stack Overflow was the most prevalent "additional" channel, followed by Slack.
 
 * Apache Airflow’s PMC use [Github Discussions](https://github.com/apache/airflow/discussions/) and [StackOverflow](https://stackoverflow.com/questions/tagged/airflow) with the usual user lists
     
@@ -54,28 +60,28 @@ Amongst the projects we checked at the time, Stack Overflow was most prevalent, 
     
 * Apache Drill has [Slack](https://join.slack.com/t/apache-drill/shared_invite/enQtNTQ4MjM1MDA3MzQ2LTJlYmUxMTRkMmUwYmQ2NTllYmFmMjU4MDk0NjYwZjBmYjg0MDZmOTE2ZDg0ZjBlYmI3Yjc4Y2I2NTQyNGVlZTc) and [user](http://mail-archives.apache.org/mod_mbox/drill-user/) lists
     
-* Apache OpenOffice has a [forum](https://forum.openoffice.org/en/forum/) in addition to user lists – but it only covers Open Office.  3rd parties do their own thing.
+* Apache OpenOffice has a [forum](https://forum.openoffice.org/en/forum/) in addition to user lists.
     
 * Solr has [user](https://lists.apache.org/list.html?users@solr.apache.org) lists, [IRC](https://solr.apache.org/community.html) (IRC, I miss you!!), and a dev-only [Slack](https://the-asf.slack.com/messages/CE70MDPMF) channel.
     
 * Apache Arrow use [user](https://lists.apache.org/list.html?user@atlas.apache.org) lists only
     
 
-Talking of third-party sponsored support channels, some have open-source support under their umbrella.
+And then open-core companies often sponsor channels themselves. And some of those channels also have open-source support under their umbrella.
 
 * For Cassandra, we found that their PMC have [user](mailto:user-subscribe@cassandra.apache.org) lists as well as [StackOverflow](http://stackoverflow.com/questions/tagged/cassandra) and [Slack](https://s.apache.org/slack-invite) – DataStax itself have a separate public [forum](https://community.datastax.com/index.html) covering both Cassandra and Datastax
     
 * Apache Kafka has [user](https://lists.apache.org/list.html?users@kafka.apache.org) lists, [IRC](https://botbot.me/freenode/apache-kafka/) (inactive?), and [Google User Groups](http://groups.google.com/group/kafka-dev) (inactive?), with [Confluent](https://www.confluent.io/community/ask-the-community/) running a [forum](https://forum.confluent.io/?src=dp&_ga=2.65008044.263246500.1655880213-1529595238.1655277929) and [Slack](https://launchpass.com/confluentcommunity) channel in addition that covers both Kafka and Confluent
     
 
-Yet others fully separate open-source support from their own product support:
+Some separate open-source support from their own product support:
 
 * Apache Spark recommends [StackOverflow](https://stackoverflow.com/questions/tagged/apache-spark) as first port-of-call, and also has a [user](https://lists.apache.org/list.html?user@spark.apache.org) list - and Databricks has its own public [forum](https://community.databricks.com/) very much focused on Databricks
     
 * Apache CouchDB’s PMC has both [IRC](https://web.libera.chat/#couchdb) and Slack, as well as the usual [user](https://lists.apache.org/list.html?user@couchdb.apache.org) lists – with Couchbase adding a public [forum](https://forums.couchbase.com/), focused on Couchbase.
     
 
-We found that some keep their support forums entirely private:
+And we found that some third parties keep their sponsored support forums private:
 
 * Apache Superset has the usual user [list](https://lists.apache.org/list.html?dev@superset.apache.org) plus [Slack](https://join.slack.com/t/apache-superset/shared_invite/zt-16jvzmoi8-sI7jKWp~xc2zYRe~NqiY9Q) and [StackOverflow](https://stackoverflow.com/questions/tagged/superset+apache-superset), with Preset adding a private area on their website.
     
@@ -99,22 +105,34 @@ We also took a look at Presto – which we all know has a rather ... complex ..
 
 And who could ignore Kubernetes?! When we checked, they had a Discourse-powered [forum](https://discuss.kubernetes.io/) along with [ServerFault](https://serverfault.com/questions/tagged/kubernetes) (versus StackOverflow) and a broad (invite-only) [Slack](https://kubernetes.slack.com/) channel.
 
-As community members ourselves, we started to think about the purpose of support channels. What tier did they best suit? Not just the community channels, but also those channels that our company was sponsoring. What value did they add? Did people have access to them? What were the barriers to entry? Did people even *know* about the channels? (Cue a Channel Access Strategy!)
+Now we had a sense of what tooling people were using. What things were common. What they were using them for. And we could come up with some ideas of what might (and might not!) work. Not just as a "standard" set, but also with our joint knowledge of geo-specific needs our own community might have.
 
 ## Step 4: Planning for action
 
-We'd looked at the channels that the [Apache Druid community](https://druid.apache.org/community) promoted, and the places people actually were. We could look at the conversations and work out what level people *thought* they were getting, and what the community itself was offering.
+We started by thinking about usage in each tier. And not just the community's own channels, but any that our company was sponsoring. We got involved in the conversations, yes, but we also stepped back. We wanted to know what value the community members themselves felt that they added. We wondered whether people even *knew* about the channels – and what they were for. How did people get there? Was it easy to register? (At the time, the answer when it came to the Slack channel was "no"!)
 
-A key tool in the DevRel arsenal was [Common Room](https://www.commonroom.io/). We could assess traffic levels, join and drop-off rates, and overall sentiment. Even do a degree of topical analysis. We were armed with a tonne of data that let the working group recommend how to make the user experience better across all support tiers.
+(Cue a Channel Access Strategy!)
 
-Led by one of the team's advocates, [Mark Herrera](https://www.linkedin.com/in/mark-anthony-herrera-337259225/), we started talking to internal stakeholders.
+The working group put a lot of effort into collecting and analysing data. We assessed traffic levels per channel, reply rates and response times, channel join and drop-off rates, even did a 3-month analysis of 5 years worth of conversations to find key categories of issue!
 
-For tier 0, for example, we spoke with our docs leader [Charles Smith](https://www.linkedin.com/in/charlesosmith/). We planned out how to improve the docs to support a user's journey, and to improve rates of contribution to the docs from across the community.
+We were able to arm the community itself with a tome of data so that together we could come up with rational, actionable ideas of how to make the experience better for everyone.
 
-For tier 1, we engaged our curriculum engineer [Steve Halladay](https://www.linkedin.com/in/steve-halladay-63b1441/) about Imply's [training courses](https://learn.imply.io) on Druid to provide hands-on labs that people could refer on a topical basis.
+Now we were ready to share what we'd learned.
 
-Armed with our new knowledge that Slack was Tier 3, we engaged with engineering leaders about their involvement in Slack support to tackle the most complex questions that the community of users were throwing up.
+## Step 5: Inspire change
 
-And all of this we could do this in a data-driven way, understanding people's experience in each tier, and with a fresh and clear understanding of the channel on which those improvements needed to be made.
+Led by one of the team's advocates, [Mark Herrera](https://www.linkedin.com/in/mark-anthony-herrera-337259225/), we started talking to key community stakeholders and influencers.
 
-As a team invested in people's success with Druid, this project and the action plans and coalitions it created continues to help us make *everyone's* journey with Druid ever-more frictionless.
+For tier 0, for example, we spoke with a Druid docs committer [Charles Smith](https://www.linkedin.com/in/charlesosmith/). We talked about how we, as community members, could all help improve the docs to better support a user's journey. And what activity might improve rates of contribution.
+
+For tier 1, we engaged with curriculum engineer [Steve Halladay](https://www.linkedin.com/in/steve-halladay-63b1441/) about the kinds of [training courses](https://learn.imply.io) that people might be able to refer to on a topical basis. That inspired a huge amount of work in common themes in Tier 1 support.
+
+And armed with our knowledge that Slack was a Tier 3 channel, we engaged with the project's own committers and contributors. We wanted them to increase their involvement in Slack. And let me tell ya, that change has been critical! Having those highly experienced people in Slack has turned it into a place where even the most complex questions can be answered.
+
+Yes, all of this we were able to do in a data-driven way. But it would **not** have happened had people not believed in the importance of helping one another. As Mark put it, of "generating goodwill". This is such an inspiring part of working in the Apache Way. When you see people wanting to hold one another's hand, spending their own time to be there for one another – well, it's just cool as hell :)
+
+But let me just be a bit selfish and personal here about what I got out of all this.
+
+As a team invested in people's success with Druid, this project and the action plans and coalitions it created continues to help me as a DevRel Director. As a community member myself, managing a team of advocates and content writers, I know how I can help the community. How I can personally participate in improving people's support experience. And I feel now like the importance of checking and continually improving the support experience in our own community has been elevated.
+
+And again – what an inspiring journey I've been on with this group. Woohoo for the Apache Druid Community!
