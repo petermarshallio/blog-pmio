@@ -14,7 +14,7 @@ My team is passionate about supporting the Apache Druid community. We are driven
 
 I'm a stickler for defining what words mean. And yes, I'm also a bit of a grammar fiend, I'm afraid! I wanted everyone to be clear what the term "support" really meant to us as a group. [Taz Chaudhry](https://www.linkedin.com/in/tahira-c-989a0642/) and [Caroline Harris](https://www.linkedin.com/in/caroline-harris-04783550/) (awesome support leaders I've worked with for many years) helped develop an answer to that fundamental question: "what does support for our open source community look like?"
 
-I'm a bit of a fan of [ITIL](https://en.wikipedia.org/wiki/ITIL), so for better or for worse (!) we didn't re-invent the wheel. Using a number of awesome resources (like this [blog from BMC Software](https://www.bmc.com/blogs/support-levels-level-1-level-2-level-3/)) we quickly worked up a table of what we felt support was - and more than that, how it is different depending on the circumstances.
+I'm a bit of a fan of [ITIL](https://en.wikipedia.org/wiki/ITIL), so we didn't re-invent the wheel. Using a number of awesome resources (like this [blog from BMC Software](https://www.bmc.com/blogs/support-levels-level-1-level-2-level-3/)) we quickly worked up a table of what we felt support was - and more than that, how it is different depending on the circumstances.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682065318253/7bc9ec53-df4c-4de5-9bcf-a7d18b7a0558.png align="center")
 
@@ -81,7 +81,6 @@ We found that some keep their support forums entirely private:
     
 * Apache Pulsar has [user](https://lists.apache.org/list.html?users@pulsar.apache.org) lists and [Slack](https://apache-pulsar.slack.com/) and WeChat, but for technical help recommends [StackOverflow](https://stackoverflow.com/tags/apache-pulsar).  StreamNative a private login [area](https://auth.streamnative.cloud/u/login/identifier?state=hKFo2SBFMTlBbGxDc1lwMzNIZWhkOUVzUmhYSEhMcG9qSlYxOKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHlLSE1zSHY1ZlpIVTVuNTlwVDYzU2otbm4zRVdwX1VZo2NpZNkgNmVyNzNxS3E0MnFCMHdic3IxU09NYVliYXU3S2hsZXc) on their site.
     
-
 * Veverica have a private login area [for customers](https://www.ververica.com/support), in addition to Apache Flink’s [user](https://lists.apache.org/list.html?user@flink.apache.org) list, [Slack](https://flink.apache.org/community.html#slack), and [StackOverflow](https://flink.apache.org/community.html#stack-overflow)
     
 * Apache Ignite have a user list and [StackOverflow](https://stackoverflow.com/questions/tagged/ignite) with the site having a particular focus on developer vs user interactions, and then GridGain have a [private forum](https://support.gridgain.com/) for customers
