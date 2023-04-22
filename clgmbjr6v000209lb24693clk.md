@@ -1,5 +1,6 @@
 ---
 title: "Getting to know Apache Druid®"
+seoDescription: "Explore Apache Druid learning resources: tutorials, videos, and articles on its architecture, ingestion, query optimization, monitoring, and more"
 datePublished: Tue Apr 18 2023 13:46:56 GMT+0000 (Coordinated Universal Time)
 cuid: clgmbjr6v000209lb24693clk
 slug: getting-to-know-apache-druid
