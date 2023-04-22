@@ -1,5 +1,6 @@
 ---
 title: "Support models in tech communities"
+seoDescription: "Optimizing open source support: how we established tiers, analyzed channels, learned from peers, and inspired change for improved user experience"
 datePublished: Fri Apr 21 2023 10:25:30 GMT+0000 (Coordinated Universal Time)
 cuid: clgqeo93p000g09mqfebmhu5u
 slug: support-models-in-tech-communities
