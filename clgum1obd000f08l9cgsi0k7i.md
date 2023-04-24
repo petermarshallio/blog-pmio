@@ -4,6 +4,7 @@ seoDescription: "Increase the chances of succeeding with real-time analytics pro
 datePublished: Mon Apr 24 2023 09:02:58 GMT+0000 (Coordinated Universal Time)
 cuid: clgum1obd000f08l9cgsi0k7i
 slug: a-capabilities-map-for-apache-druid
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/1K8pIbIrhkQ/upload/3283eedfa4d5f68861b7b655b6d9b136.jpeg
 tags: apachedruid, sfia
 
 ---
