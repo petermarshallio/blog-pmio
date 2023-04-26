@@ -111,7 +111,9 @@ They recognise educational needs, talk to them about what they're trying to achi
 
 > An important lesson learned on formal training. Not everyone completes a course that they enrol for. They may start a course only to think they do not have the prerequisite knowledge, may start but find the answer to their specific question mid-way through a course, may feel that they’re covering ground they already know and stop, or may just feel that it’s become too much of a commitment.  For this reason, it's not just a question of saying, "oh yeh! take this course!" Formal training requires monitoring and active engagement.
 
-They check back in and follow up: "how was the course?" We look at data: "I saw you got 90% in that certification... congratulations!" We talk about next steps: "Would it help to meet someone who's built a real-time dynamically introspected front-end user-facing transcendental directed acyclic graph clickstream interface in AJAX before?"
+They check back in and follow up: "How was the course?" We look at the data: "I saw you got 90% in that certification... congratulations!" We talk about their next steps: "Would it help to meet someone who's built a real-time dynamically introspected front-end user-facing transcendental directed acyclic graph clickstream interface in AJAX before?"
+
+Note that the developer persona for CASTS has likely already completed a POC you thought they were doing *all in their mind.* They're already on to the next problem. Project plans, validation events, and risk logs? Well, it's the seer's duty to track and report on that – not because it's pipeline (though of course, we know that does matter!) but because they're passionate about *everyone's* process of adoption being smoother and less arduous.
 
 A community needs to understand itself, too. It needs to gather and share intelligence to remain healthy.  By making it conscious of places that it needs to get better, it can respond to threats, identify risks, and do something about damage.
 
@@ -153,33 +155,8 @@ DevRel therefore must stand up first, and it must be the beacon of role modeling
 
 Take tutoring: DevRel must make itself available to answer questions, solve problems, and share knowledge. It must encourage isolated individuals (who hardly ever respond to other people’s questions, complain when documentation fails them, and sternly tell authors that their code samples don't work) to be people who freely and willingly give back *because that's what they do.*
 
-Socialization provides the loud-hailers of credibility. Without these programs, there's no public celebration of those core capabilities and characteristics that the community professes to be founded on.
+Socialization provides the loud-hailers of credibility. Without these programs, there's no public celebration of those core capabilities and characteristics that the community professes to be founded on. The relationship between developer and tutor, perhaps first facilitated by the seer, increases awareness **-** it's a different recipe to product / technical / field marketing.
 
 And, more seriously for open-source projects, it threatens to reduce the code to nothing more than an unloved cactus, consigned to the bin one cold morning.
 
 Socialization provides the creative, energized spaces where capabilities are abstracted, where their applicability to other situations is expanded, where new approaches are generated, where patterns are spotted... where a fireworks display of brainpower keeps the core capabilities thrilling, exciting, and alive.
-
-## Addendum: CASTS and AAA(+A)
-
-It is super important, personally, for me to say that CASTS wouldn't exist without everyone else in DevRel having thought of a lot of this before me. That includes, particularly, [Rachel Pedreschi](https://www.linkedin.com/in/rachelpedreschi?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAB2M3IBvRRWvukxKW-TrV8u8BwoRgc4yEc&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BeEHBKuRFTnaZSiFGE%2BZC%2Bw%3D%3D) and [Jelena Zanko](https://www.linkedin.com/in/jelena-zanko?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAPp9QB8oK8p6H9-iGtPGj1eXTf_tue5CQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BtMTCUy%2B4QCqpAkaM1dqYfA%3D%3D).
-
-It was Rachel who first introduced the triple-A acronym to me:
-
-* Awareness,
-    
-* Adoption, and
-    
-* Advocacy.
-    
-
-(And out came my inner Cool Kid who wanted to add "Advancement").
-
-You will undoubtedly have heard of these four, too. And it works. Rachel applied this model successfully throughout Round B, C, and D when we worked together, and there are no end of talks and blogs from DevRel written about it.
-
-CASTS is slightly different:
-
-* It's the relationship between Cool Kid, Seer, and Tutor that creates **awareness** at personal, interpersonal, and public levels. Here, it's *not* the result of a campaign. It's always troubled me that awareness in DevRel is the result of a Product Marketing, Technical Marketing, Developer Marketing, or &lt;insert here&gt; Marketing campaign. For me, the two are concretely distinct.
-    
-* **Adoption** in CASTS is the product of Seeing and Tutoring. Note that the developer persona for CASTS has likely already completed the POC *all in their mind* and has now moved on to the next problem to solve. We realize that they don't give a hooting banana about project plans, validation events, and risk logs. In the CASTS model, it's the seer's duty to tracks and report POCs because they're passionate about making *everyone's* adoption journey better.
-    
-* **Advocacy** occurs through socialization. It's not just creating the opportunity, however, it's the processes, tools, and role-modelling that drives potential implementers to *see their own potential* as an advocate, to celebrate their successes publicly... and to want other people to, too!
