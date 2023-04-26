@@ -155,7 +155,7 @@ DevRel therefore must stand up first, and it must be the beacon of role modeling
 
 Take tutoring: DevRel must make itself available to answer questions, solve problems, and share knowledge. It must encourage isolated individuals (who hardly ever respond to other people’s questions, complain when documentation fails them, and sternly tell authors that their code samples don't work) to be people who freely and willingly give back *because that's what they do.*
 
-Socialization provides the loud-hailers of credibility. Without these programs, there's no public celebration of those core capabilities and characteristics that the community professes to be founded on. The relationship between developer and tutor, perhaps first facilitated by the seer, increases awareness **-** it's a different recipe to product / technical / field marketing.
+Socialization provides the loud-hailers of credibility. Without these programs, there's no public celebration of those core capabilities and characteristics that the community professes to be founded on. The relationship between developer and tutor, perhaps first facilitated by the seer, increases awareness **\-** it's a different recipe to product / technical / field marketing.
 
 And, more seriously for open-source projects, it threatens to reduce the code to nothing more than an unloved cactus, consigned to the bin one cold morning.
 
