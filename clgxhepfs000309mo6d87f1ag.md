@@ -19,7 +19,7 @@ I am not the first to try and crack this nut / spin this yarn / tackle these Kli
 
 Yet, in an unnervingly radical departure from my usual inner-critic, I feel that perhaps I may be uniquely positioned to offer up this model to you for your kind consideration.
 
-In 2019 I was fortunate enough to have been thrust headlong into Silicon Valley, rather like an uncontrollable fork-lift truck entering a hedge in a field. I was gifted the opportunity to observe major players in the space. Recognizable community leaders who have worked at Informix, Confluent, Fivetran, SAP, SAS, Overstock, Vertica, DataStax, Qubole, Amazon, Elastic, Cloudera, Hortonworks, Sun Microsystems, Gridgain, Imply, Yelp, Teradata, Microsoft, and Decodable. I started knowing nothing, an outsider on the inside track, and now, four years later, DevRel has become my passion, too.
+In 2019, I was fortunate enough to have been thrust headlong into Silicon Valley, rather like an uncontrollable forklift entering a hedge in a field. I was gifted the opportunity to observe major players in the space. Recognizable community leaders who have worked at Informix, Confluent, Fivetran, SAP, SAS, Overstock, Vertica, DataStax, Qubole, Amazon, Elastic, Cloudera, Hortonworks, Sun Microsystems, Gridgain, Imply, Yelp, Teradata, Microsoft, and Decodable. I started knowing nothing, an outsider on the inside track, and now, four years later, DevRel has become my passion, too.
 
 ## It starts with you.
 
@@ -58,25 +58,25 @@ Together with the journey map, something magical happened: CASTS was born.
 
 This is what gives community members a topic to obsess about. In our case, it's the "core" of an Open Core Community Company – [Apache Druid](https://druid.apache.org).
 
-It's the core that enables people to solve a problem in their work or at home. It's the spatula you ever knew you needed. It's the manifestation of hope.
+It's the core that enables people to solve a problem in their work or at home. It's the spatula you never knew you needed. It's the manifestation of hope.
 
 This is what developers want to spend hours sitting in libraries reading about. The art of the code and how it's been put together. The people who built it. The use of MMORPG character names for classes (sorry – an inside joke). It's the possibility that this thing could be connected to a beautiful web of possibility, stretching from Apache Datasketches to IoT and back again via graph theory.
 
-DevRel is there to be voice of the repository: come to us, and we can uncover you what it is, how it fits, how it works...
+DevRel is there to be the voice of the repository: come to us, and we can uncover what it is, how it fits, how it works...
 
 ...and how it could change your life!
 
 ### Autonomy.
 
-Autonomizing activities in Developer Relations get past all that rhetorical fluffy nonsense and makes stuff actionable.
+Autonomizing activities in Developer Relations get past all that rhetorical fluffy nonsense and makes it applicable and actionable.
 
-Remembering that developers are more than capable of using personal experimentation and research to apply core capabilities, DevRel tops this up. It provides the community with reliable and well-known authors who provide practical content that works, building a tome of knowledge for the Cool Kids to read.
+Remembering that developers are more than capable of using personal experimentation and research to apply core capabilities, DevRel provides the community with reliable and well-known authors who provide practical content that works, building a tome of knowledge for the Cool Kids to read.
 
-Informal and formal training focuses their inquisitive energy so that they can go and solve a problem quickly and confidently. DevRel is a [Remmington Fuzzaway](https://www.youtube.com/watch?v=8dCjOdoZibk) that gives developers tools and content that addresses the mundane and allows developers to focus on their passion: intricate problem-solving.
+Informal and formal training focuses curiosity on the practical. DevRel is a [Remmington Fuzzaway](https://www.youtube.com/watch?v=8dCjOdoZibk) that gives developers tools and content that addresses the mundane and allows developers to focus on their passion: intricate problem-solving.
 
-Hands-on labs, tutorials, and certification programs - anything that brings knowledge and experience. This content encourages experimentation, engineering, writing, reference designs, data architectures, outline experiments, libraries of architectural artefacts (such as diagrams, tables, and matrices) – anything that allows our hero to open the box on the functions and services of the core and use it themselves. On their own, in the dark, where it's nice and quiet.
+Hands-on labs, tutorials, and certification programs - anything that brings knowledge and experience. Tips and tricks, cookbooks, implementation patterns, data architectures, outline experiments, diagrams, tables, matrices – anything that allows our hero to understand the functional behaviour and make sure of the services offered by the core on their own, in the dark, where it's nice and quiet.
 
-DevRel turns developers into expert practitioners - people who are ready for any battle. When they move from one problem space to another, from one org to another, from one project to another, they will take that knowledge with them. They will connect the dots and make it happen.
+The DevRel aspiration is to turn first-time developers into expert practitioners - people who are ready for any battle. When they move from one problem space to another, from one org to another, from one project to another, they will take that knowledge with them. They will connect the dots and make it happen.
 
 Cool kids work hard; their brains will not let them rest. When they've reached the summit, DevRel celebrates their success. They might even get a cool bit of swag! This isn't because brand matters.
 
@@ -86,9 +86,9 @@ It's because success matters.
 
 ### Seeing.
 
-Being a Cool Kid can be lonely. DevRel exists to see that isolation and – at speed – address it. Through DevRel, people feel their requests and concerns are heard – that they matter. It reduces the fear that comes with the unknown and attaches developers to a like-minded, low-threat person that will give them confidence in their idea and their abilities.
+Being a Cool Kid can be lonely.
 
-It helps them realise their potential. Things like:
+DevRel exists to see that isolation and – at speed – address it. People need to now that their requests and concerns are heard – that they matter as a person. "Seeing" activities reduce the fear that comes with the unknown. Things like:
 
 * Implementing the core capabilities to solve a problem,
     
@@ -101,9 +101,11 @@ It helps them realise their potential. Things like:
 * Contributing some code.
     
 
-A DevRel seer might identify someone having great success documenting what they did autonomously to solve a problem. They shake hands and talk about red socks (a strange custom in the United States that still baffles me). Within a few days, they are pals. "Did you know [Hellmar Becker](https://blog.hellmar-becker.de/)? He puts all that kind of stuff on his blog. Do you want to meet him?" Hey presto, our lonely developer is connected with someone who can help them put that content in a public blog. Huzzah! Let the UGC program commence.
-
 A seer might spot someone raising questions and problems for the community to solve in a forum. They make introductions to exactly the right person to guide and coach. Someone who's been on that road before who can talk them through the pitfalls, hurdles, and barriers.
+
+They might meet someone having great success documenting what they did but keeping it to themselves. They shake hands and talk about red socks (a strange custom in the United States that still baffles me) and within a few days, they are pals.
+
+"Did you know [Hellmar Becker](https://blog.hellmar-becker.de/)? He puts all that kind of stuff on his blog. Do you want to meet him?" Hey presto, our lonely developer is connected with someone who can help them put that content in a public blog. Huzzah! Let the UGC program commence.
 
 They recognise educational needs, talk to them about what they're trying to achieve, and signpost them to a specific tutorial or course that they need.
 
@@ -163,11 +165,11 @@ It is super important, personally, for me to say that CASTS wouldn't exist witho
 
 It was Rachel who first introduced the triple-A acronym to me:
 
-* Awareness
+* Awareness,
     
-* Adoption
+* Adoption, and
     
-* Attraction
+* Advocacy.
     
 
 (And out came my inner Cool Kid who wanted to add "Advancement").
@@ -178,6 +180,6 @@ CASTS is slightly different:
 
 * It's the relationship between Cool Kid, Seer, and Tutor that creates **awareness** at personal, interpersonal, and public levels. Here, it's *not* the result of a campaign. It's always troubled me that awareness in DevRel is the result of a Product Marketing, Technical Marketing, Developer Marketing, or &lt;insert here&gt; Marketing campaign. For me, the two are concretely distinct.
     
-* **Adoption** in CASTS is the product of Seeing and Tutoring. Note that the developer persona for CASTS has likely already completed the POC *all in their mind* and has now moved on to the next problem to solve. We realize that they don't give a hooting banana about project plans, validation events, and risk logs. In the CASTS model, DevRel doesn't proactively track and report POCs.
+* **Adoption** in CASTS is the product of Seeing and Tutoring. Note that the developer persona for CASTS has likely already completed the POC *all in their mind* and has now moved on to the next problem to solve. We realize that they don't give a hooting banana about project plans, validation events, and risk logs. In the CASTS model, it's the seer's duty to tracks and report POCs because they're passionate about making *everyone's* adoption journey better.
     
 * **Advocacy** occurs through socialization. It's not just creating the opportunity, however, it's the processes, tools, and role-modelling that drives potential implementers to *see their own potential* as an advocate, to celebrate their successes publicly... and to want other people to, too!
