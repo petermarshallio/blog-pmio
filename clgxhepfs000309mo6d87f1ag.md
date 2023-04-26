@@ -23,9 +23,13 @@ In 2019 I was fortunate enough to have been thrust headlong into Silicon Valley,
 
 ## It starts with you.
 
-[Steve Halladay](https://www.linkedin.com/in/steve-halladay-63b1441?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAyvo8BbLKhswIILd0jVCodt3W1fgSCV2I&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJfc5Vi31SAawYkiex4thwg%3D%3D) and [Mark Herrera](https://www.linkedin.com/in/mark-anthony-herrera-337259225?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADh0u5sBeQn8WnyzOexKocDSdMwFhyMcPJU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BkdCYxOhgSsG%2B4oilukrTeQ%3D%3D) are educators. In 2022, we met in Salt Lake City with a documentation expert, [Charles Smith](https://www.linkedin.com/in/charlesosmith/), and awesome advocate [Sergio Ferragut](https://www.linkedin.com/in/sergio-ferragut-3241b14?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC9j4wBDM03E-o_9hxAAFqG7Eyzsv4bhNM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BlzjqckOHSti5n%2BCTVZWhhw%3D%3D) with a seemingly simple task: "What is the Developer journey?"
+[Steve Halladay](https://www.linkedin.com/in/steve-halladay-63b1441?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAyvo8BbLKhswIILd0jVCodt3W1fgSCV2I&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJfc5Vi31SAawYkiex4thwg%3D%3D) and [Mark Herrera](https://www.linkedin.com/in/mark-anthony-herrera-337259225?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADh0u5sBeQn8WnyzOexKocDSdMwFhyMcPJU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BkdCYxOhgSsG%2B4oilukrTeQ%3D%3D) are educators. In 2022, we met in Salt Lake City with a documentation expert, [Charles Smith](https://www.linkedin.com/in/charlesosmith/), and an awesome advocate [Sergio Ferragut](https://www.linkedin.com/in/sergio-ferragut-3241b14?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAC9j4wBDM03E-o_9hxAAFqG7Eyzsv4bhNM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BlzjqckOHSti5n%2BCTVZWhhw%3D%3D) with a seemingly simple task:
 
-Three days and thirteen 18-feet-wide whiteboards and a detour into the world of [Wheeler Dealers](https://en.wikipedia.org/wiki/Wheeler_Dealers) later, we came to answer a core question for any service-oriented team: who is our customer?
+*"What is the developer's journey?"*
+
+Three days and thirteen 18-feet-wide whiteboards and a detour into the world of [Wheeler Dealers](https://en.wikipedia.org/wiki/Wheeler_Dealers) later, we came to answer a core question:
+
+*"Who is our customer?"*
 
 We found ourselves present at a real-life Eureka Moment: the birth of the "Cool Kid".
 
@@ -40,7 +44,9 @@ We found ourselves present at a real-life Eureka Moment: the birth of the "Cool 
 * Desiring freedom, space, and a bit of peace and quiet (!) they learn and solve problems autonomously.
     
 
-Like Beatles fans around a PanAm Boeing 707, we all jumped from our proverbial bathtubs and screamed "That's it! that's our developer!"
+Like Beatles fans around a PanAm Boeing 707, we all jumped from our proverbial bathtubs and screamed:
+
+*"That's it! that's our developer!"*
 
 This is no made-up persona. Within the boundaries of "reasonable creative license", it's based on a paper from 2006 by Sandra Manning called "[Gifted Students](https://files.eric.ed.gov/fulltext/EJ724632.pdf)". And the list of traits you will find therein is itself an aggregation of research stretching back nearly 30 years.
 
@@ -48,78 +54,102 @@ Together with the journey map, something magical happened: CASTS was born.
 
 ## CASTS
 
-### Capability
+### Capability.
 
-This is what gives Developers a topic to obsess about. In our case, it's the "core" of an Open Core Community Company – [Apache Druid](https://druid.apache.org).
+This is what gives community members a topic to obsess about. In our case, it's the "core" of an Open Core Community Company – [Apache Druid](https://druid.apache.org).
 
 It's the core that enables people to solve a problem in their work or at home. It's the spatula you ever knew you needed. It's the manifestation of hope.
 
-This capability is what developers want to spend hours sitting in libraries reading about. The art of the code and how it's been put together. The people who built it. The use of MMORPG character names for classes (sorry – an inside joke). It's the possibility that this thing could be connected to a beautiful web of possibility, stretching from Apache Datasketches to IoT and back again via graph theory.
+This is what developers want to spend hours sitting in libraries reading about. The art of the code and how it's been put together. The people who built it. The use of MMORPG character names for classes (sorry – an inside joke). It's the possibility that this thing could be connected to a beautiful web of possibility, stretching from Apache Datasketches to IoT and back again via graph theory.
 
-DevRel as a team is here to know everything that there is to know about it, to be the embodiment of the repository: look at us, and we can tell you what it is, how it fits, how it works...
+DevRel is there to be voice of the repository: come to us, and we can uncover you what it is, how it fits, how it works...
 
 ...and how it could change your life!
 
-### Autonomy
+### Autonomy.
 
-Autonomizing activities in Developer Relations gets past all that rhetorical fluffy nonsense and makes stuff actionable. It provides a tome of knowledge for the Cool Kids to read. Informal and formal training focuses their excited energy so that they can go and solve a problem.
+Autonomizing activities in Developer Relations get past all that rhetorical fluffy nonsense and makes stuff actionable.
 
-(Or even just know what problems it's good to solve.)
+Remembering that developers are more than capable of using personal experimentation and research to apply core capabilities, DevRel tops this up. It provides the community with reliable and well-known authors who provide practical content that works, building a tome of knowledge for the Cool Kids to read.
 
-Remembering that developers are more than capable of using personal experimentation and research to apply core capabilities, DevRel tops this up. It provides the community with reliable and well-known authors who provide practical content that works.
+Informal and formal training focuses their inquisitive energy so that they can go and solve a problem quickly and confidently. DevRel is a [Remmington Fuzzaway](https://www.youtube.com/watch?v=8dCjOdoZibk) that gives developers tools and content that addresses the mundane and allows developers to focus on their passion: intricate problem-solving.
 
-In doing so, DevRel is a [Remmington Fuzzaway](https://www.youtube.com/watch?v=8dCjOdoZibk) that gives developers tools and content that addresses the mundane and allows developers to focus on their passion: intricate problem-solving.
+Hands-on labs, tutorials, and certification programs - anything that brings knowledge and experience. This content encourages experimentation, engineering, writing, reference designs, data architectures, outline experiments, libraries of architectural artefacts (such as diagrams, tables, and matrices) – anything that allows our hero to open the box on the functions and services of the core and use it themselves. On their own, in the dark, where it's nice and quiet.
 
-### Seeing
+DevRel turns developers into expert practitioners - people who are ready for any battle. When they move from one problem space to another, from one org to another, from one project to another, they will take that knowledge with them. They will connect the dots and make it happen.
 
-Being a Cool Kid can be lonely. So a key reason DevRel exists is to see that isolation and – at speed – address it. Through DevRel, people feel their requests and concerns are heard – that they matter.
+Cool kids work hard; their brains will not let them rest. When they've reached the summit, DevRel celebrates their success. They might even get a cool bit of swag! This isn't because brand matters.
 
-This is what makes DevRel personal. It reduces the fear that comes with the unknown and attaches developers to a like-minded, low-threat person that will give them confidence in their idea and their abilities. It helps them realise their potential. Things like:
+No.
 
-* Implementing the core capabilities to solve a problem
+It's because success matters.
+
+### Seeing.
+
+Being a Cool Kid can be lonely. DevRel exists to see that isolation and – at speed – address it. Through DevRel, people feel their requests and concerns are heard – that they matter. It reduces the fear that comes with the unknown and attaches developers to a like-minded, low-threat person that will give them confidence in their idea and their abilities.
+
+It helps them realise their potential. Things like:
+
+* Implementing the core capabilities to solve a problem,
     
-* Speaking in a public forum
+* Speaking in a public forum,
     
-* Writing something practical to help other people
+* Writing something practical to help other people,
     
-* Solving problems or answering questions
+* Solving problems or answering questions, and
     
-* Contributing some code
+* Contributing some code.
     
 
-A DevRel seer might identify someone creating content for a specific project in their business. They shake hands and talk about red socks (a strange custom in the United States that still baffles me). Within a few days, they are pals. "Did you know [Hellmar Becker](https://blog.hellmar-becker.de/)? He puts all that kind of stuff on his blog. Do you want to meet him?" Hey presto, our lonely developer is connected with someone who can help them put that content in a public blog. Huzzah! Let the UGC program commence.
+A DevRel seer might identify someone having great success documenting what they did autonomously to solve a problem. They shake hands and talk about red socks (a strange custom in the United States that still baffles me). Within a few days, they are pals. "Did you know [Hellmar Becker](https://blog.hellmar-becker.de/)? He puts all that kind of stuff on his blog. Do you want to meet him?" Hey presto, our lonely developer is connected with someone who can help them put that content in a public blog. Huzzah! Let the UGC program commence.
 
-Or perhaps DevRel will spot people who are new to using the core capabilities. They reach out and assess what is preventing them from realizing their full potential. We recognise their need, talk to them about what they're trying to achieve, and point signpost them to the specific tutorial or course they need. We check back in: "how was the course?" We look at data: "I saw you got 90% in that certification... congratulations!" We talk about next steps: "Would it help to meet someone who's built a real-time dynamically introspected front-end user-facing transcendental directed acyclic graph clickstream interface in AJAX before?"
+A seer might spot someone raising questions and problems for the community to solve in a forum. They make introductions to exactly the right person to guide and coach. Someone who's been on that road before who can talk them through the pitfalls, hurdles, and barriers.
 
-DevRel needs to celebrate success, too. Cool kids work hard. Really hard. Their brains will not let them rest. Whatever potential is realised, it needs to be seen and privately celebrated. They might even get a cool bit of swag!
+They recognise educational needs, talk to them about what they're trying to achieve, and signpost them to a specific tutorial or course that they need.
 
-Seeing is bi-directional. Take engineering. Seeing enables feedback on contribution processes and on feature issues. Or take marketing and sales: has there been a rise in potential for a particular use case in a particular geography?
+> An important lesson learned on formal training. Not everyone completes a course that they enrol for. They may start a course only to think they do not have the prerequisite knowledge, may start but find the answer to their specific question mid-way through a course, may feel that they’re covering ground they already know and stop, or may just feel that it’s become too much of a commitment.  For this reason, it's not just a question of saying, "oh yeh! take this course!" Formal training requires monitoring and active engagement.
 
-### Tutoring
+They check back in and follow up: "how was the course?" We look at data: "I saw you got 90% in that certification... congratulations!" We talk about next steps: "Would it help to meet someone who's built a real-time dynamically introspected front-end user-facing transcendental directed acyclic graph clickstream interface in AJAX before?"
 
-Tutoring provides developers with a buddy to help them on their journey.
+A community needs to understand itself, too. It needs to gather and share intelligence to remain healthy.  By making it conscious of places that it needs to get better, it can respond to threats, identify risks, and do something about damage.
 
-DevRel might spot someone raising questions and problems for the community to solve in some forum or other. It allows introductions to be made to exactly the right person to guide and coach. Someone who's been on that road before who can talk them through the pitfalls, hurdles, and barriers.
+Take engineering. Seeing enables feedback on contribution processes and on feature issues. Or take marketing and sales: has there been a rise in potential for a particular use case in a particular geography?
 
-This isn't just about community support, it's also about speaking, writing, code contribution... all areas where there is potential. DevRel gives people hope amidst the Kerplunk sticks of darkness. Rich personal relationships are born, and feedback starts to flow freely and with evidence.
+A Seer maintains a big-picture view of the developers and where they live and work, recognising the needs of the global developer community and its aggregated potential. Surveys and short questionnaires, analysis of conversation topics, even configuration files, helps everyone stay sharp.
 
-Developers are fanatical about realizing their potential. Without effective and proficient guides, you may well be left with a globally distributed group of highly intelligent individuals who feel they've been misled. And for developers, there's nothing more gut-wrenchingly destructive than the guilt and embarrassment that comes from believing *you* misled *yourself.* They will be more than willing to share that with anyone and everyone.
+Journey traversals might also be tracked. Seers measure and inspire velocity amongst developers, working out what motivates and stifles innovation, and what interactions do and do not add value. They spot patterns and trends in issues, questions, and problems, and have begun to discuss their findings to make things better. They work to build and improve tools and processes the community uses to answer questions and solve problems.
 
-### Socialization
+### Tutoring.
+
+Tutoring provides developers with a buddy to help them on their adoption journey.
+
+And not just a person who can do one-on-one root cause analysis, but someone who can calm the stage fright of first-time speakers, who can review blogs when the author doesn't have English as a first language, who can be a tester of their most recent PR. They have a wisdom that makes them a source of best practices, and they share them in lots of ways in lots of places - exactly the places that our (so far) autonomous developer has been looking at.
+
+And beneath this surface of service is something more: a person who wants to encourage individuals to give back. They want them to create and improve the very materials that they were using in lots of places, times, and media. They want their new friend to become a participant in using more and more of the core in more and more places – and in getting more people involved in the effort.
+
+This is exactly the place for personal brand-building to go full tilt. Our tutors shouldn't rely on the seer: they need to share content that stimulates interest *in themselves as a tutor*.
+
+Without effective and proficient role models like this, you may be left with a globally distributed group of highly intelligent individuals who feel they've been misled. And for developers, there's nothing more gut-wrenchingly destructive than the guilt and embarrassment that comes from believing *you* misled *yourself.*
+
+### Social Interaction.
 
 Seeing and Tutoring are only part of the process of combating isolation. Developers need to have places to meet people, and to build relationships with other developers.
 
-Socialization is all about flexing and understanding the power of individuals and networks to generate – as Mark Herrera put it – "fanatical goodwill".
+Connecting people on a similar stage of their journey, with people who share common needs and interests, or even just people who live near them, is a critical mission for DevRel.
 
-Through tutoring, DevRel makes itself available to answer questions, solve problems, and share knowledge out in the wild. Socialization activity encourages isolated individuals (who hardly ever respond to other people’s questions, complain when documentation fails them, and sternly tell authors that their code samples don't work) to be people who freely and willingly give back.
+Socialization is all about flexing and understanding the power of individuals and networks to generate – as Mark Herrera put it – "fanatical goodwill". The intellectually stimulating social situations it is involved with get people together to activate key persona traits.
 
-Socialization elevates the essential personal celebrations of success into group celebrations, like at meetups or on social media. It's part of the DevRel job to work out what level is appropriate, and to give that praise where it's due.
+Discussion forums are where people find causes to fight for (like a big feature project), community meetups are where they find a place to tell campfire tales, and hackathons give the opportunity for group problem-solving.
 
-Yet there is a big barrier here. And this one affects me personally... You see, us developer-types find social situations unnerving. Ice-breaker activities are the stuff of nightmares. What I look for is other people saying "I'm OK, you're OK". It's OK to tell people what happened when you tried to build that acyclic graph and it didn't work first time. It's OK to tutor other people even though you're not as experienced as that person over there. It's OK to celebrate your successes. We're *all* OK.
+Yet there is a big barrier here. And this one affects me personally...
 
-DevRel is a source of role models – people with extreme levels of credibility who consistently display attitudes and behaviours exemplifying what it means to be a part of this OK Community. For those role models to be effective, and for these traits to become infectious, requires initiatives where they are elevated to a position where they can properly display that interdependency.
+Us developer-types find social situations unnerving. Ice-breaker activities are the stuff of nightmares. What I look for is other people saying "I'm OK, you're OK". It's OK to tell people what happened when you tried to build that acyclic graph and it didn't work first time. It's OK to tutor other people even though you're not as experienced as that person over there. It's OK to celebrate your successes. We're *all* OK.
 
-DevRel has an important role in creating situations where these characterstics of your community can be put on show. Discussion forums where people find causes to fight for (like fixing a security problem), where they find a place to tell campfire tales (like meetups), where group problem solving takes place (like hackathons).
+Developers who have never had their potential and successes recognised, who have never met someone and connected with them intellectually, who do not recognise people at the event as someone worthy of their time and attention, *do not join the club*. It doesn't matter how flashy the registration page for the event is or how many times you send an email asking them to join Slack.
+
+DevRel therefore must stand up first, and it must be the beacon of role modeling – people with extreme levels of credibility who consistently display attitudes and behaviours exemplifying what it means to be a part of this OK Community.
+
+Take tutoring: DevRel must make itself available to answer questions, solve problems, and share knowledge. It must encourage isolated individuals (who hardly ever respond to other people’s questions, complain when documentation fails them, and sternly tell authors that their code samples don't work) to be people who freely and willingly give back *because that's what they do.*
 
 Socialization provides the loud-hailers of credibility. Without these programs, there's no public celebration of those core capabilities and characteristics that the community professes to be founded on.
 
