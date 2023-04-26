@@ -1,6 +1,6 @@
 ---
 title: "Fishing for Developer Relations"
-seoDescription: "Explore the CASTS model for Developer Relations: Capability, Autonomy, Seeing, Tutoring, and Socialization. Empower your community: unleash the cool kids!"
+seoDescription: "Explore the CASTS model for DevRel: Capability, Autonomy, Seeing, Tutoring, and Social Interaction. Empower your community: unleash the cool kids!"
 datePublished: Wed Apr 26 2023 09:16:26 GMT+0000 (Coordinated Universal Time)
 cuid: clgxhepfs000309mo6d87f1ag
 slug: fishing-for-developer-relations
