@@ -19,7 +19,7 @@ I am not the first to try and crack this nut / spin this yarn / tackle these Kli
 
 Yet, in an unnervingly radical departure from my usual inner-critic, I feel that perhaps I may be uniquely positioned to offer up this model to you for your kind consideration.
 
-In 2019 I was fortunate enoguh to have been thrust headlong into Silicon Valley, rather like an uncontrollable fork-lift truck entering a hedge in a field. I was gifted the opportunity to observe as major players in the space. Recognizable community leaders who have worked at Informix, Confluent, Fivetran, SAP, SAS, Overstock, Vertica, DataStax, Qubole, Amazon, Elastic, Cloudera, Hortonworks, Sun Microsystems, Gridgain, Imply, Yelp, Teradata, Microsoft, and Decodable. I started knowing nothing, an outsider on the inside track, and now, four years later, DevRel has become my passion, too.
+In 2019 I was fortunate enough to have been thrust headlong into Silicon Valley, rather like an uncontrollable fork-lift truck entering a hedge in a field. I was gifted the opportunity to observe major players in the space. Recognizable community leaders who have worked at Informix, Confluent, Fivetran, SAP, SAS, Overstock, Vertica, DataStax, Qubole, Amazon, Elastic, Cloudera, Hortonworks, Sun Microsystems, Gridgain, Imply, Yelp, Teradata, Microsoft, and Decodable. I started knowing nothing, an outsider on the inside track, and now, four years later, DevRel has become my passion, too.
 
 ## It starts with you.
 
